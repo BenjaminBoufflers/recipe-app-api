@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   app:
     build:
@@ -28,7 +26,7 @@ services:
     environment:
       - POSTGRES_DB=devdb
       - POSTGRES_USER=devuser
-      - POSTGRES_PASSWORD=CHANGEME
+      - POSTGRES_PASSWORD=changeme
   
 volumes: 
   dev-db-data: 
